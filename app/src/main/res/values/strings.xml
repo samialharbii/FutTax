@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FutTax</string>
+    <string name="enter_buy_in_price">Enter Buy-in Price</string>
+    <string name="enter_selling_price">Enter Selling Price</string>
+    <string name="calculate_tax">Calculate Tax</string>
+    <string name="profit">Profit</string>
+</resources>

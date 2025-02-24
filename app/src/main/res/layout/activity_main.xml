@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff546e7a"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/amountEditText1"
+        android:layout_width="285.5dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:hint="@string/enter_buy_in_price"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/amountEditText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:hint="@string/enter_selling_price"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/taxTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/profitTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profit"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#808080"
+        android:text="@string/calculate_tax"
+        android:textColor="#000000"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
